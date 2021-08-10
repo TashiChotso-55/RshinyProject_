@@ -5,8 +5,8 @@ from across region and around the world. Networks and network providers play a s
   With Network and Network providers come an imminent procedure of people choosing which network they can best use, when in a particular region. Network providers vary in terms of signal strength, download speed, data rate per mbps speed and so forth. 
  We have come up with few visualization techniques which gives insights into which Network works best according to signal strength, data speed and etcetera region wise in order to give a structure analysis and understanding of how it works region 
  to region across India and also, we derive the comparisons. 
+ 
 PROBLEM STATEMENT:
-
 ANALYSING THE NETWORK TRENDS WITH RESPECT TO DATA SPEED, SIGNAL STRENGTH ACROSS INDIA FOR THE MONTHS OF JANUARY 2020 – SEPTEMEBER 2020.  
 METHODOLOGY USED.
 

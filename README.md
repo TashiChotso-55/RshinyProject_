@@ -15,7 +15,7 @@ The data collected was collected for every month from January 2020 to September 
 The data cleaning process involved various steps which were performed using packages in Python(Pandas)and RStudio(dplyr and tidyverse).The data was checked for its validity, accuracy, uniformity  and consistency by examining the degree to which the data is close to the true values and by looking for any data-type constraints ,range constraints and mandatory constraints. The initial dataset had recorded several NA under the Data Speed, Signal Strength and the Service Area columns. The NA values in the Signal Strength column corresponds to the device not being able to capture signal and the NA values in Service Area corresponds to the area being unidentifiable. To correct these anomalies the NA values where removed since the data set was huge the removal did not disrupt the accuracy of the result as seen during the univariate analysis. The dataset was also checked for any duplicate values which were removed after checking for any inconsistencies. 
 The data analysis process of the project was done in different stages in order to get a clear understanding of each variable: 
 
-Exploratory data analysis:  
+EXPLORATORY DATA ANALYSIS:
 At first Univariate analysis was performed on each of the 6 variables and the target variables were decided. The variables were assigned for correct data type and appropriate column names. Box-plots provided a clear information on the outliers in the Data Speed column, these were not removed since the composed of a majority of information on the Service Provider and Area of Service. The distribution was checked for the numerical variables and low variance filter was applied. Time variables (Months) were also checked.  
 The next step was bivariate analysis here the input and the output variables were compared for correlation using Scatter Plots and pairwise visualizations were studied. The subset of the dataset for each month was analysed for any trends. For accuracy a new column containing the different months were added. 
 Multi-variate analysis was performing using a set of categorical and numerical variable to further understanding of the data.   
@@ -25,14 +25,15 @@ For strings, make sure all values are either in lower or upper case. 
   
 For numerical values, make sure all values have a certain measurement unit. 
 
-b. Statistical Methods: 
+b. STATISTICAL METHODS:
   
 By analysing and visualizing the data using statistical methods such as mean, standard deviation, range, or quantiles, values that are unexpected and thus erroneous were found. 
 For the modelling the two options explored were classification or regression. Classification could fit the data due to the non-linearity of the data points of the target variables. 
 Correlation: We have found the correlation between data speed and signal strength and as a result we have correlation coefficient of 0.86, as the value of the coefficient is higher, we conclude that there is a good correlation between these two variables across the states.
 6.DATASET 
 
-How we worked on the dataset?
+
+HOW WE WORKED ON THE DATASET?
 The test sample consisted of data collected from user’s devices through the application “MySpeed” from the Telecom Regulatory Authority of India (TRAI).
   
 The dataset contains 3,44,203 rows and 7 columns namely 
@@ -48,8 +49,7 @@ With the help of this data set we are able to differentiate and segregate that h
 With the help of these visualisation we want to provide a better perspective for the user with respect to the technology, data speed, signal strength with respect to the region. 
 
 
-
-                               7.RESULT
+ 7.RESULT
 
 What have we achieved?
 We have understood how the network speed, signal strength, data speed differs from region to region. 
